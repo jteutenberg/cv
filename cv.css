@@ -1,6 +1,6 @@
 body {
  font-family:sans-serif;
- font-size:9pt;
+ font-size:10pt;
  margin-top:0.5cm;
 }
 
@@ -10,28 +10,26 @@ body {
   top:0%;
   left:0%;
   width:100%;
-  height:2.5cm;
-  padding-left: 0.5cm;
+  height:3cm;
+  padding-left: 0.25cm;
 }
 #leftcolumn {
   position: absolute;
   left:0%;
   right:50%;
-  top:2.5cm;
-  margin-left: 0.5cm;
-  margin-right: 0.25cm;
+  top:3cm;
+  margin-left: 0.25cm;
 }
 #rightcolumn {
   position: absolute;
-  left:50%;
+  left:52%;
   right:0%;
-  top:2.5cm;
-  margin-right: 0.5cm;
-  margin-left: 0.25cm;
+  top:3cm;
+  margin-right: 0.25cm;
 }
 
 #name {
-  font-size:16pt;
+  font-size:22pt;
   font-weight:normal;
   padding-right:0.5cm;
   margin-top:0.2cm;
@@ -43,14 +41,14 @@ body {
 }
 
 h2 {
-  font-size:12pt;
+  font-size:13pt;
   color:steelblue;
   font-weight:bold;
   margin-top:5pt;
   margin-bottom:1pt;
 }
 h3 {
-  font-size:10pt;
+  font-size:12pt;
   font-weight:bold;
   margin-top:5pt;
   margin-bottom:1pt;
@@ -62,7 +60,7 @@ hr {
   height:0px;
 }
 .employer {
-  font-size:10pt;
+  font-size:12pt;
 }
 
 .jobdate {
@@ -72,7 +70,7 @@ hr {
 
 .skill {
  border-radius:2px;
- background:steelblue;
+ background:gray;
  padding-left:2px;
  padding-right:2px;
  color:white;
