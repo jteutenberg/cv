@@ -31,7 +31,7 @@ body {
   position: absolute;
   left:0%;
   right:0%;
-  top:2.8cm;
+  top:3cm;
   margin-left: 0.25cm;
 }
 
@@ -51,7 +51,7 @@ h2 {
   font-size:13pt;
   color:steelblue;
   font-weight:bold;
-  margin-top:1pt;
+  margin-top:5pt;
   margin-bottom:1pt;
 }
 h3 {
@@ -69,11 +69,6 @@ hr {
 .employer {
   font-size:12pt;
 }
-.employerdetails {
-  margin-left: 5pt;
-  font-style: italic;
-  color:#888888;
-}
 
 .jobdate {
   float:right;
@@ -88,9 +83,6 @@ hr {
  color:white;
  font-weight:bold;
 }
-.lighter {
- color:darkgrey;
-}
 
 a:link {
  color:black;
@@ -102,20 +94,17 @@ a:hover {
  color:steelblue;
 }
 ul {
-  margin-top:1pt;
-  margin-left: 7pt;
   padding-left:10pt;
   list-style:none;
 }
 ul li::before {
-  color: black;
+  color:steelblue;
   content: "\2022";
   display:inline-block;
-  margin-left: -11pt;
-  margin-right: 7pt;
+  margin-left: -7pt;
+  margin-right:2pt;
 }
 li {
-  padding-bottom:2pt;
-  padding-left:2pt;
+  padding-bottom:4pt;
 }
 

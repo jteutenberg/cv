@@ -10,40 +10,46 @@
 		<div id="titlebar">
 			<span id="name">Jonathan Teutenberg</span>
 			<div style="float:right; margin-right:1cm;color:#888888">jono.teutenberg@gmail.com<br>
-				Reading, UK
+				Oxfordshire, UK
 			</div>
 			<div id="summary">
-				A data scientist with a broad computer science background. "Full stack" in the sense of experience in the full range of data preparation, processing, modelling and classification, visualisation, and software services. Substantial start-up experience with a proven ability to deliver value from R&amp;D through to production. <!--from supporting research, through product development, to software services.--> A continual learner who is always looking to up-skill.
+				A machine learning engineer and computational scientist with substantial start-up experience and a proven ability to deliver value from R&amp;D through to production.
 			</div>
 		</div>
-
-		<div id="leftcolumn">
+		<div id="singlecolumn">
 			<h2>EXPERIENCE</h2>
-			
-
-			<h3>Computational Scientist</h3>
-			<span class="employer">Quantum Biosystems Inc.</span><span class="jobdate">2014-present</span><br>
+			<hr>
+			<h3>Staff Machine Learning Engineer</h3>
+			<span class="employer">Sense</span><span class="employerdetails">Modelling electrical power consumption in real-time embedded systems</span><span class="jobdate">2021-present</span><br>
+			<ul>
+				<li>Led a small team developing and productising causal Mamba models, deployed on low power ARM smart-meters, to distinguish individual devices by their effect on power consumption. Deployed ahead of time and won target contracts with utilities and meter manufacturers.</li>
+				<li>Responsible for internationalisation of analysis pipelines and models developed against US-specific data. Sense is now active in Japan, Australia, and the EU.</li>
+				<li>Assisted in automation of ground truth gathering and curation. Never stop checking your ground truth. </li>
+				<li>Experimentation on applications of existing in-house transformer and diffusion models, regularly addressing niche tasks with e.g. U-nets, global optimsation by search.</li>
+			</ul>
+			<h3>Principal Computational Scientist</h3>
+			<span class="employer">Quantum Biosystems Inc.</span><span class="employerdetails">Developing solid-state DNA sensors</span><span class="jobdate">2014-2020</span><br>
 			<ul>
 				<li>Worked in a small team developing electronic DNA sensors, leading the informatics team for 3 years</li>
 				<li>Produced models and simulations of our technology for presentation to potential investors and collaborators</li>
 				<li>Supported engineers and chemists with automated reporting of daily experiments in multiple formats</li>
-				<li>Developed flexible pipelines for real-time analysis of experimental data (typically 10s of GB per experiment, 100s of GB per day)</li>
+				<li>Developed flexible pipelines for real-time analysis of experimental data (typically 100s of GB per day)</li>
+				<li>Trained robust classifiers - decision forests, CNNs - for use within analysis pipelines, substantially reducing cost of experimenters' time</li>
 				<li>Developed and maintained online and offline apps for inspecting and visualising raw data</li>
-				<li>Learnt robust classifiers for use within analysis pipelines, substantially reducing cost of experimenters' time</li>
 			</ul>
 
-			<h3>Computational Scientist</h3>
-			<span class="employer">Oxford Nanopore Technologies</span><span class="jobdate">2011-2014</span><br>
+			<h3>Senior Computational Scientist</h3>
+			<span class="employer">Oxford Nanopore Technologies</span><span class="employerdetails">Bringing novel DNA sequencing technology to market</span><span class="jobdate">2011-2014</span><br>
 
 			<ul>
 				<li>Supported biochemists with automated interactive reports on their experimental results</li>
 				<li>Developed platform-specific error correction and consensus models for continuous electrical and discrete DNA data</li>
-				<li>Produced plots and visualisations for use in board slides</li>
+				<li>Produced plots and visualisations for board presentations</li>
 				<li>Created an experimental structure to discover novel protein sensing molecules based on an evolutionary algorithm</li>
 			</ul>
 
 			<h3>Research Associate</h3>
-			<span class="employer">Teesside University</span><span class="jobdate">2010-2011</span><br>
+			<span class="employer">Teesside University</span><span class="employerdetails">Research lab using classical AI planning for narrative generation</span><span class="jobdate">2010-2011</span><br>
 			<ul>
 				<li>Developed agent-based systems for narrative generation, integrating with both internal and international collaborators' front ends</li>
 				<li>Prepared manuscripts for publishing at academic conferences and journals</li>
@@ -57,74 +63,26 @@
 				<li> 7am.com - programmer developing and maintaining web crawlers for news aggregation</li>
 			</ul>
 			
+			<h2>SKILLS</h2>
+			<hr>
+			<p>
+			<strong>Programming</strong>: Python, Golang, Javascript, C, SQL <span class="lighter">(Plan9, Java, C++, CSS, Matlab, Prolog)</span><br>
+			<strong>Technologies</strong>: Signal processing, seq2seq, transformers, RNNs, CNNs, HMMs, planning, search, optimisation</span><br>
+			<strong>Tools</strong>: Pytorch, AWS batch and lambda, Grafana, Sentry, git, d3, etc.</span><br>
+			<strong>Management</strong>: Project planning and reporting, Scrum lead, managing technical direct reports</span><br>
+			</p>
 
 			<h2>EDUCATION</h2>
+			<hr>
 			<p>
-			<strong>BSc(Hons, 1st)</strong> in Discrete Mathematics with Computing, University of Auckland<br>
-			Completed honours year at National University of Singapore<br>
-			<strong>MSc</strong> in Computer Science, University of Auckland<br>
 			<strong>PhD</strong> in Computer Science (co-supervised by Electrical Engineering)<br>
-			Thesis: <em>On the Transformation of Accent</em>, in speech processing
+			Thesis: <em>On the Transformation of Accent</em>, in speech processing<br>
+			<strong>MSc</strong> in Computer Science, University of Auckland<br>
+			<strong>BSc(Hons, 1st)</strong> in Discrete Mathematics with Computing, University of Auckland<br>
+			Completed honours year at National University of Singapore
 			</p>
-		</div>
-		
-		<div id="rightcolumn">
-			<h2>TECHNICAL SKILLS</h2>
-			
-			<h3>Data Exploration</h3>
-			<p>
-			When initially wrangling data and for explorative programming I have used <span class="inskill">Python</span> and <span class="inskill">numpy</span> within <span class="inskill">Jupyter</span> notebooks. For visual exploration <span class="inskill">matplotlib</span> and <span class="inskill">seaborn</span>.
 			</p>
-			<span class="skill">Python</span>  <span class="skill">numpy</span> <span class="skill">Jupyter</span> <span class="skill">matplotlib</span> <span class="skill">seaborn</span>
-			<p>
-			<!-- Example: <a href="https://github.com/jteutenberg/speech/blob/main/analysis/analysis.ipynb">[github] notebook preparing pitch mark data for speech models</a> -->
-			Example: <a href="https://github.com/jteutenberg/speech/blob/main/words/word-embeddings.ipynb">[github] notebook exploring two word embeddings</a>
-			</p>
-			
-			<h3>Data Wrangling</h3>
-			<p>
-			For high-throughput pipelines I like <span class="inskill">golang</span>, though I also work with <span class="inskill">C++</span> and <span class="inskill">C</span>. For storing cleaned data I have used BigQuery, standard SQL databases, and flat files like tdms and HDF.
-			</p>
-			<span class="skill">golang</span> <span class="skill">C++</span> <span class="skill">C</span> <span class="skill">SQL</span> <span class="skill">BigQuery</span>
-			<p>
-			Example: <a href="https://github.com/jteutenberg/pipe-cleaner">[github] Pipe-cleaner: a small framework for streaming pipelines in golang</a>
-			</p>
-
-			<h3>Visualisation and Reporting</h3>
-			<p>
-			I have experience making online <span class="inskill">JavaScript</span>-based interactive reports with figures based on <span class="inskill">d3.js</span>. I have also used PixiJS for higher performance rendering. When polling data regular for automated reports I've used <span class="inskill">App Engine</span> or custom <span class="inskill">REST</span>ful services on small python servers.
-			</p>
-			<span class="skill">JavaScript</span> <span class="skill">d3.js</span> <span class="skill">PixiJS</span> <span class="skill">REST</span> <span class="skill">App Engine</span>
-			<p>
-			Example: <a href="https://github.com/jteutenberg/figurative">[github] Consistent, reusable interactive reports using d3.js</a>
-			</p>
-			
-			<h3>Modelling and Classification</h3>
-			<p>
-			I have used <span class="inskill">scipy</span> for simple statistical models and <span class="inskill">sk-learn</span> for machine learning.
-			</p>
-			<p> When deep learning makes sense I prefer <span class="inskill">pytorch</span> using either huggingface (for transformers) or the <span class="inskill">fastai</span> training loop (for CNNs etc.).
-			</p>
-			<span class="skill">scipy</span> <span class="skill">sk-learn</span> <span class="skill">pytorch</span> <span class="skill">fastai</span>
-			<p>
-			Example: <a href="https://github.com/jteutenberg/stop-motion/blob/main/Data%20prep.ipynb">[github] Preparing frame interpolation data for fastai training</a>
-			</p>
-
-			
-			<h3> Other Technologies</h3>
-			<p style="line-height:14pt;">
-			<span class="skill">Java</span> <span class="skill">Fujitsu Quantum Annealer</span> <span class="skill">Matlab</span> <span class="skill">Prolog</span> <br>
-			<span class="skill">Pandas</span> <span class="skill">GCP</span> <span class="skill">libGDX</span>
-			</p>
-			<h2>PUBLICATIONS</h2>
-			<p>A full publication list is available on <a href="https://scholar.google.com/citations?user=-ZEQkJ4AAAAJ">Google Scholar</a>. Some selected publications:</p>
-			<ul>
-				<li><em>Seed selection strategies for overlap detection</em> J Teutenberg; BioRxiv 316273 2018</li>
-				<li><em>Incorporating global and local knowledge in intentional narrative planning</em> J Teutenberg, J Porteous; AMAAS 2015</li>
-				<li><em>Efficient Intent-Based Narrative Generation Using Multiple Planning Agents</em> J Teutenberg, J Porteous; AMAAS 2013</li>
-				<!-- <li><em>Visual programming of plan dynamics using constraints and landmarks</em> J Porteous, J Teutenberg, D Pizzi, M Cavazza; AMAAS 2011</li> -->
-				<li><em>Modelling and synthesising F0 contours with the discrete cosine transform</em>, J Teutenberg, C Watson, P Riddle; ICASSP 2008</li>
-			</ul>
+			<p>A full publication list is available on <a href="https://scholar.google.com/citations?user=-ZEQkJ4AAAAJ">Google Scholar</a>.</p>
 		</div>
 	</body>
 </html>
