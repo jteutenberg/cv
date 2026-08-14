@@ -66,6 +66,10 @@ hr {
   background-color:steelblue;
   height:0px;
 }
+.lightrule {
+ color: #FCFCFC;
+ background-color:none;
+}
 .employer {
   font-size:12pt;
 }
